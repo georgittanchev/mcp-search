@@ -1,0 +1,20 @@
+{
+  "name": "web-tools-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server with web_search (Brave) and web_fetch (UA rotation + Jina fallback)",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "undici": "^7.22.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
