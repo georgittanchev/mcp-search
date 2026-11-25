@@ -4,3 +4,5 @@ dist/
 *.tar.gz
 .env
 .env.*
+data/
+!.env.example
